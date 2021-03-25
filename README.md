@@ -1,6 +1,6 @@
-## VNI: Virtualization for Enabling Next-Generation IoT Networks
+## SIGNIS: Softwarized Next Generation Networks for IoT Services
 
 ### Workshop co-located with 
 
-## IEEE International Conference on High Performance Switching and Routing (HPSR) 2021
+## IEEE Global Communications Conference (GLOBECOM) 2021
 
