@@ -46,20 +46,20 @@ div {
 <button onclick="topFunction()" id="myBtn" title="Go to top" style="display: none;">Top</button>
 <div align="center" style="background-color:lightblue">
 </div>
-	<div class="container" id="content" style="padding-top:20px;">
-		<img src="under_construction.png" height="200">
+	<!-- <div class="container" id="content" style="padding-top:20px;">
+		<img src="under_construction.png" height="200"> -->
 		
 		
-<!-- </div>
+</div>
 	<div class="container" id="content" style="padding-top:20px;">
 	<table width="90%">
-	<tr><td width=5% style="padding-left:100px;"><a id="conference-logo" href="https://hpsr2021.ieee-hpsr.org/" target="_blank"><img alt="IEEE International Conference on High Performance Switching and Routing" src="https://hpsr2021.ieee-hpsr.org/wp-content/uploads/sites/291/2020/11/ieee-hpsr-logo.png" height="50"></a>
+	<tr><td width=5% style="padding-left:100px;"><a id="conference-logo" href="https://globecom2021.ieee-globecom.org/" target="_blank"><img alt="IEEE Global Communications Conference" src="https://globecom2021.ieee-globecom.org/sites/globecom2021.ieee-globecom.org/files/ieee-globecom-restricted_web-use.png" height="50"></a>
        </td><td width="95%" style="padding:0px;">
-	<h2 align="center" style="font-family:Cambria; color:#333333; padding-left:0px;"> <b>VNI: Virtualization for Enabling Next-Generation IoT Networks</b></h2>
+	<h2 align="center" style="font-family:Cambria; color:#333333; padding-left:0px;"> <b>SIGNIS: Softwarized Next Generation Networks for IoT Services</b></h2>
 	<h4 align="center" style="font-family:Cambria; color:#333333; padding-left:0px;"><b>Workshop co-located with</b></h4>
-	<h3 align="center"style="font-family:Cambria; color:#333333; padding:0px;"><b>IEEE International Conference on High Performance Switching and Routing</b> </h3>
-	<h4 align="center" style="font-family:Cambria; color:#333333"><b>Paris, France</b></h4>
-	<h4 align="center" style="font-family:Cambria; color:#333333"><b>June 7-9, 2021</b></h4></td></tr>
+	<h3 align="center"style="font-family:Cambria; color:#333333; padding:0px;"><b>IEEE Global Communications Conference (GLOBECOM)</b> </h3>
+	<h4 align="center" style="font-family:Cambria; color:#333333"><b>Madrid, Spain</b></h4>
+	<h4 align="center" style="font-family:Cambria; color:#333333"><b>December 7-11, 2021</b></h4></td></tr>
 	</table>
 </div>	
 
@@ -123,6 +123,83 @@ div {
   border: none;
 }
 </style>
+
+
+
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+
+
+
 </div>
 </div>
 <br>
@@ -138,11 +215,37 @@ div {
  </tbody></table>
 </div>
 
+
+
+
+
 <div class="container">
 	<div class="main-banner-small" align="center">
 	  <div class="inner">
-		  <p style="padding:20px;; width: 100%;"><img alt="IEEE International Conference on High Performance Switching and Routing" src="https://hpsr2021.ieee-hpsr.org/wp-content/uploads/sites/291/2020/11/HPSR_2021_Banners_v2_11-24-20_KP-1100x291-1-Eiffel.png" align="center">
-		  </p>
+		  <!--<p style="padding:20px;; width: 100%;"><img alt="IEEE International Conference on High Performance Switching and Routing" src="https://hpsr2021.ieee-hpsr.org/wp-content/uploads/sites/291/2020/11/HPSR_2021_Banners_v2_11-24-20_KP-1100x291-1-Eiffel.png" align="center">
+		  </p>-->
+		  
+		  <p style="padding:20px;; width: 100%;"><div class="slideshow-container">
+
+			<div class="mySlides fade">
+			  <img src="https://globecom2021.ieee-globecom.org/sites/globecom2021.ieee-globecom.org/files/styles/frontpage_slideshow_full/public/GC21-Homepage-Banners_v2_10NOV20_JB-01.png?itok=Kcc4nhCf" width="1100" height="291" alt="">
+			</div>
+
+			<div class="mySlides fade">
+			  <img src="https://globecom2021.ieee-globecom.org/sites/globecom2021.ieee-globecom.org/files/styles/frontpage_slideshow_full/public/GC21-Homepage-Banners_v2_10NOV20_JB-03.png?itok=-itIlYG_" width="1100" height="291" alt="">
+			</div>
+
+			<div class="mySlides fade">
+			  <img src="https://globecom2021.ieee-globecom.org/sites/globecom2021.ieee-globecom.org/files/styles/frontpage_slideshow_full/public/GC21-Homepage-Banners_v2_10NOV20_JB-05.png?itok=CNzMPFWX" width="1100" height="291" alt="">
+			</div>
+			
+			<div style="text-align:center">
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			</div>
+		</div>
+		</p>
 
 		<a id="cfp"></a>
 		<br><br>
@@ -295,6 +398,28 @@ div {
 </div>
 
 -->
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
 
 <script>
 // When the user scrolls down 20px from the top of the document, show the button
